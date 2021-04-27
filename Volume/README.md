@@ -5,7 +5,7 @@
 * gcePersistentDisk
 * NFS
 ### 1.1.1 emptyDir
-* Là dạng volume được tạo ra khi 1 Pod được gán vào 1 node, tồn tại trong suốt quá trình Pod chạy trên Node.
+* Là dạng volume được tạo ra khi 1 Pod được gán vào 1 node, tồn tại trong suốt quá trình Pod chạy trên Node.empty volume là một thành phần thuộc Pod.
 * Volume trống.
 * Container trong Pod có thể **đọc** và **ghi** dữ liệu vào volume này.
 * Khi Pod xóa khỏi Node hoặc khởi động lại thì dữ liệu trong emptyDir bị xóa.
